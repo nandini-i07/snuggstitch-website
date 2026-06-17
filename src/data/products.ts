@@ -17,8 +17,8 @@ const products: Product[] = [
     price: 249,
     category: 'keychains',
     images: [
-      "/images/spiderman.png",
-      "/images/spiderman2.png",
+      "/images/spiderman.webp",
+      "/images/spiderman2.webp",
   
     ],
     shortDescription: '',
@@ -32,9 +32,9 @@ const products: Product[] = [
     price: 249,
     category: 'keychains',
     images: [
-      "/images/bunny2.png",
-      "/images/bunny.png",
-      "/images/bunny3.png"
+      "/images/bunny2.webp",
+      "/images/bunny.webp",
+      "/images/bunny3.webp"
     ],
     shortDescription: '',
     description:
@@ -48,7 +48,7 @@ const products: Product[] = [
     price: 99,
     category: 'keychains',
     images: [
-      "/images/swissroll.png",
+      "/images/swissroll.webp",
     ],
     shortDescription: '',
     description:'',
@@ -62,9 +62,9 @@ const products: Product[] = [
     price: 299,
     category: 'keychains',
     images: [
-      "/images/Chill Bunny .png",
-      "/images/chill bunny 2.png",
-      "/images/chill bunny 3.png",
+      "/images/Chill Bunny .webp",
+      "/images/chill bunny 2.webp",
+      "/images/chill bunny 3.webp",
     ],
     shortDescription: '',
     description:
@@ -79,8 +79,8 @@ const products: Product[] = [
     price: 69,
     category: 'keychains',
     images: [
-      "/images/shield2.png",
-      "/images/shield.png",
+      "/images/shield2.webp",
+      "/images/shield.webp",
         ],
     shortDescription: '',
     description:
@@ -96,13 +96,31 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/lilykeychain.png",
+      "/images/lilykeychain.webp",
     ],
     shortDescription: '',
     description:
       'This pretty keychain is made of premium wool yarn in pink color with a metal keychain.',
     emoji: '🌸',
   },
+
+  {
+    id: 'daisyy-keychain',
+    name: 'Daisy Keychain',
+    price: 149,
+    category: 'keychains',
+    images: [
+      "/images/daisyy.webp",
+      "/images/daisypurple.webp",
+      "/images/daisypink.webp",
+
+    ],
+    shortDescription: '',
+    description:
+      'This pretty keychain is made of premium wool yarn with a metal keychain.',
+    emoji: '🌼',
+  },
+  
 
   
   
@@ -112,7 +130,7 @@ const products: Product[] = [
     price: 69,
     category: 'keychains',
     images: [
-      "/images/sunflower.png",
+      "/images/sunflower.webp",
     ],
     shortDescription: '',
     description:
@@ -127,10 +145,10 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/pokeball.png",
-      "/images/pokeball2.png",
-      "/images/pokeball3.png",
-      "/images/pokeball4.png"
+      "/images/pokeball.webp",
+      "/images/pokeball2.webp",
+      "/images/pokeball3.webp",
+      "/images/pokeball4.webp"
     ],
     shortDescription: '',
     description:
@@ -144,9 +162,9 @@ const products: Product[] = [
     price: 179,
     category: 'keychains',
     images: [
-      "/images/morpankh.png",
-      "/images/morpankh2.png",
-      "/images/morpankh3.png"
+      "/images/morpankh.webp",
+      "/images/morpankh2.webp",
+      "/images/morpankh3.webp"
 
 
     ],
@@ -163,7 +181,7 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/sunflowerleaves.png",
+      "/images/sunflowerleaves.webp",
     ],
     shortDescription: '',
     description:
@@ -185,8 +203,8 @@ const products: Product[] = [
     price: 399,
     category: 'keychains',
     images: [
-      "/images/whitebunny1.png",
-      "/images/whitebunny2.png",
+      "/images/whitebunny1.webp",
+      "/images/whitebunny2.webp",
     ],
     shortDescription: '',
     description:
@@ -200,8 +218,8 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/daisy.png",
-      "/images/daisy2.png"
+      "/images/daisy.webp",
+      "/images/daisy2.webp"
     ],
     shortDescription: '',
     description:
@@ -217,7 +235,7 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/miffy.png",
+      "/images/miffy.webp",
     ],
     shortDescription: '',
     description:
@@ -232,7 +250,7 @@ const products: Product[] = [
     price: 119,
     category: 'keychains',
     images: [
-      "/images/wahtermelon.png",
+      "/images/wahtermelon.webp",
     ],
     shortDescription: '',
     description:
@@ -246,8 +264,8 @@ const products: Product[] = [
     price: 149,
     category: 'keychains',
     images: [
-      "/images/hat.png",
-      "/images/hat2.png"
+      "/images/hat.webp",
+      "/images/hat2.webp"
 
     ],
     shortDescription: '',
@@ -271,7 +289,7 @@ const products: Product[] = [
     price: 99,
     category: 'hair-accessories',
     images: [
-      "/images/angry.png"
+      "/images/angry.webp"
     ],
     shortDescription: '',
     description:
@@ -284,7 +302,7 @@ const products: Product[] = [
     price: 99,
     category: 'hair-accessories',
     images: [
-      "/images/bowhairclip.png"
+      "/images/bowhairclip.webp"
     ],
     shortDescription: '',
     description:
@@ -298,7 +316,7 @@ const products: Product[] = [
     price: 119,
     category: 'hair-accessories',
     images: [
-      "/images/beigehairclip.png"
+      "/images/beigehairclip.webp"
     ],
     shortDescription: '',
     description:
@@ -312,8 +330,8 @@ const products: Product[] = [
     price: 149,
     category: 'hair-accessories',
     images: [
-      "/images/ribbon2.png",
-      "/images/ribbon.png"
+      "/images/ribbon2.webp",
+      "/images/ribbon.webp"
 
     ],
     shortDescription: '',
@@ -327,8 +345,8 @@ const products: Product[] = [
     price: 149,
     category: 'hair-accessories',
     images: [
-      "/images/scrunchie.png",
-      "/images/scrunchie2.png"
+      "/images/scrunchie.webp",
+      "/images/scrunchie2.webp"
 
       
     ],
@@ -344,8 +362,8 @@ const products: Product[] = [
     price: 99,
     category: 'hair-accessories',
     images: [
-      "/images/headbandred.png",
-      "/images/headbandred2.png",
+      "/images/headbandred.webp",
+      "/images/headbandred2.webp",
 
     ],
     shortDescription: '',
@@ -360,8 +378,8 @@ const products: Product[] = [
     price: 119,
     category: 'hair-accessories',
     images: [
-      "/images/headband.png",
-      "/images/headband2.png"
+      "/images/headband.webp",
+      "/images/headband2.webp"
 
     ],
     shortDescription: '',
@@ -380,7 +398,7 @@ const products: Product[] = [
     price: 149,
     category: 'hair-accessories',
     images: [
-      "/images/hairclip.png"
+      "/images/hairclip.webp"
     ],
     shortDescription: '',
     description:
@@ -400,8 +418,8 @@ const products: Product[] = [
     price: 349,
     category: 'bouquets',
     images: [
-      '/images/lily.png',
-      '/images/lily2.png'
+      '/images/lily.webp',
+      '/images/lily2.webp'
 
     ],
     shortDescription: 'Everlasting crochet lily flower .',
@@ -421,8 +439,8 @@ const products: Product[] = [
     price: 349,
     category: 'custom',
     images: [
-      '/images/lily.png',
-      '/images/lily2.png'
+      '/images/lily.webp',
+      '/images/lily2.webp'
 
     ],
     shortDescription: 'Everlasting crochet lily flower .',
@@ -436,8 +454,8 @@ const products: Product[] = [
     price: 149,
     category: 'custom',
     images: [
-      '/images/pouch.png',
-      '/images/pouch2.png'
+      '/images/pouch.webp',
+      '/images/pouch2.webp'
 
     ],
     shortDescription: '',
@@ -451,8 +469,8 @@ const products: Product[] = [
     price: 199,
     category: 'custom',
     images: [
-      '/images/rat.png',
-      '/images/rat2.png'
+      '/images/rat.webp',
+      '/images/rat2.webp'
 
     ],
     shortDescription: '',
@@ -475,7 +493,7 @@ export const categories = [
     id: 'keychains',
     label: 'Keychains',
     emoji: '❤️',
-    image: '/images/spiderman.png',
+    image: '/images/spiderman.webp',
     href: '/keychains',
     description: 'Cute handcrafted crochet keychains',
   },
@@ -483,7 +501,7 @@ export const categories = [
     id: 'bouquets',
     label: 'Bouquets',
     emoji: '💐',
-    image: '/images/lily.png',
+    image: '/images/lily.webp',
     href: '/bouquets',
     description: 'Flowers that never wilt, memories that never fade.',
   },
@@ -491,7 +509,7 @@ export const categories = [
     id: 'hair-accessories',
     label: 'Hair Accessories',
     emoji: '🎀',
-    image: '/images/bowhairclip.png',
+    image: '/images/bowhairclip.webp',
     href: '/hair-accessories',
     description: 'Clips, scrunchies & more',
   },
@@ -499,7 +517,7 @@ export const categories = [
     id: 'custom',
     label: 'Custom Orders',
     emoji: '✨',
-    image: '/images/rat.png',
+    image: '/images/rat.webp',
     href: '/custom',
     description: 'Made exactly how you imagine it',
   },
