@@ -154,26 +154,26 @@ export default function Hero() {
             {/* Decorative circles */}
             <div
               style={{
-                // position: 'absolute',
-                // top: '-2rem',
-                // right: '-2rem',
-                // width: '10rem',
-                // height: '10rem',
-                // borderRadius: '50%',
-                // background: 'var(--accent-light)',
-                // opacity: 0.4,
+                position: 'absolute',
+                top: '-2rem',
+                right: '-2rem',
+                width: '10rem',
+                height: '10rem',
+                borderRadius: '50%',
+                background: 'var(--accent-light)',
+                opacity: 0.4,
               }}
             />
             <div
               style={{
-                // position: 'absolute',
-                // bottom: '-1.5rem',
-                // left: '-1.5rem',
-                // width: '8rem',
-                // height: '8rem',
-                // borderRadius: '50%',
-                // background: 'var(--beige-mid)',
-                // opacity: 0.5,
+                position: 'absolute',
+                bottom: '-1.5rem',
+                left: '-1.5rem',
+                width: '8rem',
+                height: '8rem',
+                borderRadius: '50%',
+                background: 'var(--beige-mid)',
+                opacity: 0.5,
               }}
             />
 
