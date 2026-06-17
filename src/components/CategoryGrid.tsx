@@ -65,6 +65,7 @@ export default function CategoryGrid() {
                   <img
                     src={cat.image}
                     alt={cat.label}
+                    loading="lazy"
                     style={{
                       width: '100%',
                       height: '100%',
