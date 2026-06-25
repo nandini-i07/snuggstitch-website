@@ -1,6 +1,6 @@
 export default function Marquee() {
   const text =
-    'Free Shipping over ₹499 ✨  ·  Handmade with Love ✨  ·  Custom Orders Available ✨  ·  '
+    'Free Shipping over ₹499 ✨  ·  COD Available on First Order ✨  ·  Custom Orders Available ✨  ·  '
   const repeated = text.repeat(2)
 
   return (

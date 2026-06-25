@@ -70,7 +70,9 @@ export default function Hero() {
               maxWidth: '400px',
             }}
           >
-            <i>Crafted for your next photo dump.</i>
+            <i>Crafted for your next photo dump 🌷<br></br>
+              (for reviews check out our Instagram Page @snuggstitch)
+            </i>
           </p>
 
           <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap' }}>
@@ -180,10 +182,10 @@ export default function Hero() {
             
 
 
-            {/* Crochet SVG placeholder
+            {/* Crochet SVG placeholder */}
             <div style={{ position: 'relative', zIndex: 1 }}>
               <img
-                src=""
+                src="/images/spidermankeychain11.webp"
                 alt="SNUGGSTITCH crochet"
                 style={{
                   width: '400px',
@@ -193,7 +195,7 @@ export default function Hero() {
                   boxShadow: '0 8px 32px rgba(42,36,32,0.12)',
                 }}
               />
-            </div> */}
+            </div>
 
             
           </div>

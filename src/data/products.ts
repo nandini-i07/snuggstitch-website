@@ -14,7 +14,7 @@ const products: Product[] = [
   {
     id: 'spiderman-keychain',
     name: 'Hanging Spiderman Keychain',
-    price: 249,
+    price: 320,
     category: 'keychains',
     images: [
       "/images/spiderman.webp",
@@ -26,15 +26,31 @@ const products: Product[] = [
       'It features the iconic red and blue colours with detailed white eye patches . The charm includes a white hanging cord, making it suitable for backpacks .',
     emoji: '🕸️',
   },
+
   {
-    id: 'bunny-keychain',
-    name: 'Bunny Keychain',
-    price: 249,
+    id: 'spiderman-keychain2',
+    name: 'Hanging Spiderman Keychain(with web)',
+    price: 350,
     category: 'keychains',
     images: [
-      "/images/bunny2.webp",
-      "/images/bunny.webp",
-      "/images/bunny3.webp"
+      "/images/spidermankeychain11.webp",
+      "/images/spidermankeychain22.webp",
+  
+    ],
+    shortDescription: '',
+    description:
+      'It features the iconic red and blue colours with detailed white eye patches . The charm includes a white hanging cord, making it suitable for backpacks .',
+    emoji: '🕸️',
+  },
+
+  {
+    id: 'bunnyblue-keychain',
+    name: 'Bunny Head Keychain (Powder Blue)',
+    price: 300,
+    category: 'keychains',
+    images: [
+      "/images/bluebunny1.webp",
+      "/images/bluebunny2.webp",
     ],
     shortDescription: '',
     description:
@@ -43,23 +59,71 @@ const products: Product[] = [
   },
 
   {
+    id: 'bunny-keychain',
+    name: 'Bunny Head Keychain (Beige)',
+    price: 300,
+    category: 'keychains',
+    images: [
+      "/images/bunny.webp",
+      "/images/bunny2.webp",
+    ],
+    shortDescription: '',
+    description:
+      'Our classic crochet bunny keychain is a fan favourite. Lightweight, fluffy, and made with care. A perfect everyday companion for your keys or bags. Customise colour on request.',
+    emoji: '🐰',
+  },
+
+  {
+    id: 'Cigar-keychain',
+    name: 'Cigar Keychain',
+    price: 150,
+    category: 'keychains',
+    images: [
+      "/images/cigar1.webp",
+      "/images/cigar2.jpg",
+    ],
+    shortDescription: '',
+    description:
+      '',
+    emoji: '🚬',
+  },
+
+  {
     id: 'roll-keychain',
-    name: 'Swiss roll Keychain',
-    price: 99,
+    name: 'Swiss roll cake Keychain',
+    price: 100,
     category: 'keychains',
     images: [
       "/images/swissroll.webp",
     ],
     shortDescription: '',
-    description:'',
+    description:'This crochet swiss roll keychain is available in pink , white color and brown and white and brown and pink color',
     emoji: '🍥',
   },
 
+  {
+    id: 'pokeball-keychain',
+    name: 'Crochet Pokeball Keychain',
+    price: 200,
+    category: 'keychains',
+    images: [
+      "/images/twopokeball.jpeg",
+      "/images/pokeball2.webp",
+      "/images/pokeball3.webp",
+      "/images/pokeball4.webp"
+    ],
+    shortDescription: '',
+    description:
+      'It is designed to be small , stuffed charm for backpacks , bags ,or keys .',
+    emoji: '❤️🤍',
+  },
 
+
+  
   {
     id: 'Chill-keychain',
-    name: 'Chill Bunny Keychain',
-    price: 299,
+    name: 'Chill-Bunny Keychain',
+    price: 300,
     category: 'keychains',
     images: [
       "/images/Chill Bunny .webp",
@@ -68,32 +132,19 @@ const products: Product[] = [
     ],
     shortDescription: '',
     description:
-      'It is designed as a miniature keychain charm . perfect for attaching to bag or keys.',
+      'It is designed as a miniature keychain charm . perfect for attaching to bag or keys. Available in purple color with cream color headphone , with metal ring keychain .',
     emoji: '🎧',
   },
 
 
-  {
-    id: 'Shield-keychain',
-    name: 'Shield Keychain',
-    price: 69,
-    category: 'keychains',
-    images: [
-      "/images/shield2.webp",
-      "/images/shield.webp",
-        ],
-    shortDescription: '',
-    description:
-      'This handmade accessory replicates captain americas iconic shield using vibrant red, white ,and blue yarn stitched around a central star, It comes with attached to a sturdy silver metal keyring .',
-    emoji: '🕸️',
-  },
+  
   
   
 
   {
     id: 'lily-keychain',
-    name: 'Lily Keychain',
-    price: 149,
+    name: 'Pink Lily Keychain',
+    price: 200,
     category: 'keychains',
     images: [
       "/images/lilykeychain.webp",
@@ -105,9 +156,24 @@ const products: Product[] = [
   },
 
   {
+    id: 'Shield-keychain',
+    name: 'Shield Keychain',
+    price: 70,
+    category: 'keychains',
+    images: [
+      "/images/shield2.webp",
+      "/images/shield.webp",
+        ],
+    shortDescription: '',
+    description:
+      'This handmade accessory replicates captain americas iconic shield using vibrant red, white ,and blue yarn stitched around a central star, It comes with attached to a sturdy silver metal keyring .',
+    emoji: '🕸️',
+  },
+
+  {
     id: 'daisyy-keychain',
     name: 'Daisy Keychain',
-    price: 149,
+    price: 150,
     category: 'keychains',
     images: [
       "/images/daisyy.webp",
@@ -117,49 +183,15 @@ const products: Product[] = [
     ],
     shortDescription: '',
     description:
-      'This pretty keychain is made of premium wool yarn with a metal keychain.',
+      'This pretty keychain is made of premium wool yarn with a metal keychain. Available in many colors you can customize them , if no suggestion we provide it in pink color .',
     emoji: '🌼',
   },
   
-
-  
-  
-  {
-    id: 'sunflower-keychain',
-    name: 'Sunflower Keychain',
-    price: 69,
-    category: 'keychains',
-    images: [
-      "/images/sunflower.webp",
-    ],
-    shortDescription: '',
-    description:
-      'Our classic crochet sunflower keychain would make your every bag look very pretty . we gaurantee with love',
-    emoji: '🌻',
-  },
-
-
-  {
-    id: 'pokeball-keychain',
-    name: 'Crochet Pokeball Keychain',
-    price: 149,
-    category: 'keychains',
-    images: [
-      "/images/pokeball.webp",
-      "/images/pokeball2.webp",
-      "/images/pokeball3.webp",
-      "/images/pokeball4.webp"
-    ],
-    shortDescription: '',
-    description:
-      'It is designed to be small , stuffed charm for backpacks , bags ,or keys .',
-    emoji: '❤️🤍',
-  },
   
   {
     id: 'morpankh-keychain',
     name: 'Crochet Morpankh Keychain',
-    price: 179,
+    price: 150,
     category: 'keychains',
     images: [
       "/images/morpankh.webp",
@@ -174,33 +206,10 @@ const products: Product[] = [
   },
 
 
-  
-  {
-    id: 'sunflower2-keychain',
-    name: 'Sunflower with leaves Keychain',
-    price: 149,
-    category: 'keychains',
-    images: [
-      "/images/sunflowerleaves.webp",
-    ],
-    shortDescription: '',
-    description:
-      'Our classic crochet sunflower keychain would make your every bag look very pretty . we gaurantee with love ',
-    emoji: '🌻',
-  },
-  
-  
-  
-  
-
-
-  
-
-
   {
     id: 'whitebunny-keychain',
     name: ' Bunny Keychain (with a free accessory)',
-    price: 399,
+    price: 400,
     category: 'keychains',
     images: [
       "/images/whitebunny1.webp",
@@ -215,7 +224,7 @@ const products: Product[] = [
 {
     id: 'daisy-keychain',
     name: 'Daisy Bouquet Keychain',
-    price: 149,
+    price: 150,
     category: 'keychains',
     images: [
       "/images/daisy.webp",
@@ -232,7 +241,7 @@ const products: Product[] = [
   {
     id: 'miffy-keychain',
     name: 'Miffy Keychain',
-    price: 149,
+    price: 150,
     category: 'keychains',
     images: [
       "/images/miffy.webp",
@@ -247,7 +256,7 @@ const products: Product[] = [
   {
     id: 'watermelon-keychain',
     name: 'Watermelon Keychain',
-    price: 119,
+    price: 100,
     category: 'keychains',
     images: [
       "/images/wahtermelon.webp",
@@ -261,7 +270,7 @@ const products: Product[] = [
   {
     id: 'hat-keychain',
     name: 'CowBoy Hat Keychain',
-    price: 149,
+    price: 150,
     category: 'keychains',
     images: [
       "/images/hat.webp",
@@ -286,7 +295,7 @@ const products: Product[] = [
   {
     id: '1',
     name: 'Angry Emotion Hair Clip',
-    price: 99,
+    price: 100,
     category: 'hair-accessories',
     images: [
       "/images/angry.webp"
@@ -299,7 +308,7 @@ const products: Product[] = [
   {
     id: '5',
     name: 'Bow Hair Clip',
-    price: 99,
+    price: 100,
     category: 'hair-accessories',
     images: [
       "/images/bowhairclip.webp"
@@ -313,7 +322,7 @@ const products: Product[] = [
   {
     id: '4',
     name: 'Beige Tulip Hair Clip',
-    price: 119,
+    price: 150,
     category: 'hair-accessories',
     images: [
       "/images/beigehairclip.webp"
@@ -325,9 +334,43 @@ const products: Product[] = [
   },
 
   {
+    id: '77',
+    name: 'Black Bow Clip',
+    price: 200,
+    category: 'hair-accessories',
+    images: [
+      "/images/blackbow1.webp",
+      "/images/blackbow2.webp"
+
+    ],
+    shortDescription: '',
+    description:
+      'Prettiest Bow Hairclip in beautiful black color with an alligator hairclip.',
+    emoji: '🌷',
+  },
+
+  {
+    id: '777',
+    name: 'Mesh Bow Clip',
+    price: 250,
+    category: 'hair-accessories',
+    images: [
+      "/images/meshbow1.webp",
+      "/images/meshbow2.webp",
+      "/images/meshbow3.webp",
+
+
+    ],
+    shortDescription: '',
+    description:
+      'Prettiest Mesh Bow Hairclip in beautiful blue color .',
+    emoji: '🌷',
+  },
+
+  {
     id: '7',
-    name: ' Bow Clip',
-    price: 149,
+    name: 'Bow Clip',
+    price: 150,
     category: 'hair-accessories',
     images: [
       "/images/ribbon2.webp",
@@ -342,7 +385,7 @@ const products: Product[] = [
   {
     id: '2',
     name: 'Crochet Scrunchie',
-    price: 149,
+    price: 150,
     category: 'hair-accessories',
     images: [
       "/images/scrunchie.webp",
@@ -359,7 +402,7 @@ const products: Product[] = [
   {
     id: '8',
     name: 'Red Headband',
-    price: 99,
+    price: 100,
     category: 'hair-accessories',
     images: [
       "/images/headbandred.webp",
@@ -375,7 +418,7 @@ const products: Product[] = [
   {
     id: '3',
     name: 'Beige handmade crochet headband',
-    price: 119,
+    price: 120,
     category: 'hair-accessories',
     images: [
       "/images/headband.webp",
@@ -395,7 +438,7 @@ const products: Product[] = [
   {
     id: '6',
     name: ' Tulip Hair Clip',
-    price: 149,
+    price: 150,
     category: 'hair-accessories',
     images: [
       "/images/hairclip.webp"
@@ -415,7 +458,7 @@ const products: Product[] = [
   {
     id: 'AA',
     name: 'Crochet Lily Flower Stick',
-    price: 349,
+    price: 350,
     category: 'bouquets',
     images: [
       '/images/lily.webp',
@@ -436,7 +479,7 @@ const products: Product[] = [
   {
     id: 'AA',
     name: 'Crochet Lily Flower Stick',
-    price: 349,
+    price: 350,
     category: 'custom',
     images: [
       '/images/lily.webp',
@@ -451,7 +494,7 @@ const products: Product[] = [
   {
     id: 'B',
     name: 'Pink Crochet Drawstring Pouch',
-    price: 149,
+    price: 150,
     category: 'custom',
     images: [
       '/images/pouch.webp',
@@ -466,7 +509,7 @@ const products: Product[] = [
   {
     id: 'C',
     name: 'Grey crochet rat bookmark',
-    price: 199,
+    price: 200,
     category: 'custom',
     images: [
       '/images/rat.webp',
@@ -493,7 +536,7 @@ export const categories = [
     id: 'keychains',
     label: 'Keychains',
     emoji: '❤️',
-    image: '/images/spiderman.webp',
+    image: '/images/bunny.webp',
     href: '/keychains',
     description: 'Cute handcrafted crochet keychains',
   },
@@ -509,7 +552,7 @@ export const categories = [
     id: 'hair-accessories',
     label: 'Hair Accessories',
     emoji: '🎀',
-    image: '/images/bowhairclip.webp',
+    image: '/images/meshbow1.webp',
     href: '/hair-accessories',
     description: 'Clips, scrunchies & more',
   },
@@ -517,7 +560,7 @@ export const categories = [
     id: 'custom',
     label: 'Custom Orders',
     emoji: '✨',
-    image: '/images/rat.webp',
+    image: '/images/pouch.webp',
     href: '/custom',
     description: 'Made exactly how you imagine it',
   },
