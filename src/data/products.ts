@@ -27,6 +27,9 @@ const products: Product[] = [
     emoji: '🕸️',
   },
 
+
+
+
   {
     id: 'spiderman-keychain2',
     name: 'Hanging Spiderman Keychain(with web)',
@@ -42,6 +45,56 @@ const products: Product[] = [
       'It features the iconic red and blue colours with detailed white eye patches . The charm includes a white hanging cord, making it suitable for backpacks .',
     emoji: '🕸️',
   },
+
+
+
+
+  {
+    id: 'LuffyHead-keychain',
+    name: 'Luffy Head Keychain',
+    price: 350,
+    category: 'keychains',
+    images: [
+      "/images/luffy2.png",
+      "/images/luffy1.png",
+    ],
+    shortDescription: '',
+    description:
+      'This is a handmade crochet keychain inspired by the character Luffy from the anime One Piece. It is crafted using the amigurumi technique, resulting in a 3D head shape of Luffy with his signature straw hat and facial features.',
+    emoji: '🧢',
+  },
+   {
+    id: 'minisunflowerbouquet-keychain',
+    name: 'Mini Sunflower Bouquet Keychain',
+    price: 200,
+    category: 'keychains',
+    images: [
+      "/images/minisunflower.png",
+      
+    ],
+    shortDescription: '',
+    description:
+      'this is a handmade mini sunflower bouquet keychain, often crafted from 100% cotton yarn. The bouquet features intricate green leaves, a stem, and detailed stamens, making it a popular choice for home decor or gifting.',
+    emoji: '🌻',
+  },
+
+  {
+    id: 'Duck-keychain',
+    name: 'Duck Keychain',
+    price: 250,
+    category: 'keychains',
+    images: [
+      "/images/duck.png",
+      "/images/duck2.png",
+    ],
+    shortDescription: '',
+    description:
+      'This adorable duck keychain is made from high-quality materials and is perfect for adding a touch of whimsy to your keys or bags.',
+    emoji: '🦆',
+  },
+    
+    
+    
 
   {
     id: 'bunnyblue-keychain',
@@ -71,6 +124,35 @@ const products: Product[] = [
     description:
       'Our classic crochet bunny keychain is a fan favourite. Lightweight, fluffy, and made with care. A perfect everyday companion for your keys or bags. Customise colour on request.',
     emoji: '🐰',
+  },
+
+  {
+    id: 'lily-keychain',
+    name: 'Pink Lily Keychain',
+    price: 200,
+    category: 'keychains',
+    images: [
+      "/images/lilykeychain.webp",
+    ],
+    shortDescription: '',
+    description:
+      'This pretty keychain is made of premium wool yarn in pink color with a metal keychain.',
+    emoji: '🌸',
+  },
+
+  {
+    id: 'cutefrog-keychain',
+    name: 'Cute Frog Keychain',
+    price: 300,
+    category: 'keychains',
+    images: [
+      "/images/cutefrog.png",
+      "/images/cutefrog2.png"
+    ],
+    shortDescription: '',
+    description:
+      '',
+    emoji: '🌸',
   },
 
   {
@@ -141,19 +223,7 @@ const products: Product[] = [
   
   
 
-  {
-    id: 'lily-keychain',
-    name: 'Pink Lily Keychain',
-    price: 200,
-    category: 'keychains',
-    images: [
-      "/images/lilykeychain.webp",
-    ],
-    shortDescription: '',
-    description:
-      'This pretty keychain is made of premium wool yarn in pink color with a metal keychain.',
-    emoji: '🌸',
-  },
+  
 
   {
     id: 'Shield-keychain',
@@ -244,7 +314,7 @@ const products: Product[] = [
     price: 150,
     category: 'keychains',
     images: [
-      "/images/miffy.webp",
+      "/images/miffy.png",
     ],
     shortDescription: '',
     description:
@@ -454,7 +524,22 @@ const products: Product[] = [
   //BouQUETS 
 
 
+  
+  {
+    id: 'AAA',
+    name: 'Sunflower and White Rose bouquet',
+    price: 450,
+    category: 'bouquets',
+    images: [
+      '/images/Sunflowerrosebouquet.png'
+      
 
+    ],
+    shortDescription: 'Everlasting crochet flower bouquet.',
+    description:
+      'This is a handmade bouquet, often crafted from 100% cotton yarn.The flower features intricate green leaves, a stem, and detailed stamens, making it a popular choice for home decor or gifting.',
+    emoji: '🌸',
+  },
   {
     id: 'AA',
     name: 'Crochet Lily Flower Stick',
@@ -468,6 +553,21 @@ const products: Product[] = [
     shortDescription: 'Everlasting crochet lily flower .',
     description:
       'This is a handmade white crochet lily flower, often crafted from 100% cotton yarn.The flower features intricate green leaves, a stem, and detailed stamens, making it a popular choice for home decor or gifting.',
+    emoji: '🌸',
+  },
+  {
+    id: 'AAAA',
+    name: 'Sunflower bouquet',
+    price: 200,
+    category: 'bouquets',
+    images: [
+      '/images/sunflowerbouquet.png',
+      
+
+    ],
+    shortDescription: 'Everlasting crochet sunflower bouquet.',
+    description:
+      'This is a handmade bouquet, often crafted from 100% cotton yarn.The flower features intricate green leaves, a stem, and detailed stamens, making it a popular choice for home decor or gifting.',
     emoji: '🌸',
   },
 
@@ -544,7 +644,7 @@ export const categories = [
     id: 'bouquets',
     label: 'Bouquets',
     emoji: '💐',
-    image: '/images/lily.webp',
+    image: '/images/Sunflowerrosebouquet.png',
     href: '/bouquets',
     description: 'Flowers that never wilt, memories that never fade.',
   },
@@ -560,7 +660,7 @@ export const categories = [
     id: 'custom',
     label: 'Custom Orders',
     emoji: '✨',
-    image: '/images/rat.webp',
+    image: '/images/lily.webp',
     href: '/custom',
     description: 'Made exactly how you imagine it',
   },
